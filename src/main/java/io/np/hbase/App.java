@@ -142,7 +142,7 @@ public class App {
         ClusterStatus status = admin.getClusterStatus();
         StringBuilder builder = new StringBuilder();
         builder.append("----------------------------------------\n");
-        builder.append("HBase Data Locality Alert:\n");
+        builder.append("HBase Region Compaction Alert:\n");
         builder.append("----------------------------------------\n");
         List<String> selectedTables = commandLine.hasOption("tables") ? Arrays
                 .asList(commandLine.getOptionValues("tables")) : Arrays.stream(admin.listTableNames())

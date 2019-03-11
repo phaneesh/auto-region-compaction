@@ -20,10 +20,10 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:https://github.com/phaneesh/revolver.git</connection>
-        <developerConnection>scm:git:https://github.com/phaneesh/revolver.git</developerConnection>
+        <connection>scm:git:https://github.com/phaneesh/auto-region-compaction.git</connection>
+        <developerConnection>scm:git:https://github.com/phaneesh/auto-region-compaction.git</developerConnection>
         <tag>HEAD</tag>
-        <url>https://github.com/phaneesh/revolver</url>
+        <url>https://github.com/phaneesh/auto-region-compaction</url>
     </scm>
 
     <licenses>
